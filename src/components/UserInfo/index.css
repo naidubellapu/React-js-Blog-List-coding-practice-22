@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.user-info-container {
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+}
+
+.name {
+  font-size: 25px;
+  color: #12022f;
+}
+
+.job-role {
+  font-size: 20px;
+  color: #7e7e7e;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-img {
+    margin-top: 20px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .job-role {
+    font-size: 18px;
+  }
+}

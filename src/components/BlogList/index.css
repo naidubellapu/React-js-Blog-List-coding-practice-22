@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+.blogs-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+@media screen and (max-width: 767px) {
+  .blogs-list {
+    width: 90%;
+    padding: 0px;
+  }
+}
